@@ -1,0 +1,16 @@
+[package]
+name = "wsq-rs"
+version = "0.1.0"
+authors = ["nicolas.beleski@gmail.com"]
+description = "A Rust library using NIST Biometric Image Software source for WSQ image compression and decompression"
+license = "MIT"
+repository = ""
+edition = "2021"
+
+[dependencies]
+image = "0.25.5"
+libc = "0.2"
+thiserror = "2.0"
+
+[build-dependencies]
+cc = "1.2.2"
